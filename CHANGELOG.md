@@ -1,5 +1,9 @@
 # rollup-plugin-buble changelog
 
+## 0.3.4
+
+* Update `buble`
+
 ## 0.2.3
 
 * Make plugin 0.12-friendly
