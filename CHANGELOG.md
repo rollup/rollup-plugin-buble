@@ -1,5 +1,9 @@
 # rollup-plugin-buble changelog
 
+## 0.12.1
+
+* Return a `name`
+
 ## 0.12.0
 
 * Update `buble`

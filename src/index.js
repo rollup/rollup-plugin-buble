@@ -9,6 +9,8 @@ export default function buble ( options ) {
 	options.transforms.modules = false;
 
 	return {
+		name: 'buble',
+
 		transform: function ( code, id ) {
 			if ( !filter( id ) ) return null;
 			return transform( code, options );
