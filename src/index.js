@@ -13,6 +13,12 @@ export default function buble ( options ) {
 
 		transform: function ( code, id ) {
 			if ( !filter( id ) ) return null;
+			// Test for /** @jsx xxx */
+			var match = code.match(/\/\*\*\s+@jsx\s+([\S]+)/);
+			if (match) {
+				// Override options.jsx
+				options.jsx = match[1];
+			}
 			return transform( code, options );
 		}
 	};
