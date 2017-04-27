@@ -13,7 +13,12 @@ export default function buble ( options ) {
 
 		transform: function ( code, id ) {
 			if ( !filter( id ) ) return null;
-			return transform( code, options );
+
+			try {
+				var transformed = transform( code, options );
+			} catch (e) {}
+
+			return transformed;
 		}
 	};
 }
