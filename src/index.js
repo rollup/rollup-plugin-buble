@@ -15,10 +15,13 @@ export default function buble ( options ) {
 			if ( !filter( id ) ) return null;
 
 			try {
-				var transformed = transform( code, options );
-			} catch (e) {}
-
-			return transformed;
+				return transform( code, options );
+			} catch (e) {
+				e.plugin = 'buble';
+				e.loc = { file: id, line: e.loc.line, column: e.loc.column };
+				e.frame = e.snippet;
+				throw e;
+			}
 		}
 	};
 }
