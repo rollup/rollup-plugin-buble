@@ -1,3 +1,10 @@
+import pkg from './package.json';
+
 export default {
-	entry: 'src/index.js'
+	input: 'src/index.js',
+	output: [
+		{ format: 'es', file: pkg.module },
+		{ format: 'cjs', file: pkg.main }
+	],
+	external: ['buble', 'rollup-pluginutils']
 };
