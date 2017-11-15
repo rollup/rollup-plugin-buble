@@ -18,7 +18,8 @@ export default function buble ( options ) {
 				return transform( code, options );
 			} catch (e) {
 				e.plugin = 'buble';
-				e.loc = { file: id, line: e.loc.line, column: e.loc.column };
+				if ( !e.loc ) e.loc = {};
+				e.loc.file = id;
 				e.frame = e.snippet;
 				throw e;
 			}
