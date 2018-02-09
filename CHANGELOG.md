@@ -1,5 +1,10 @@
 # rollup-plugin-buble changelog
 
+## 0.19.0
+
+* Update `buble`
+* Better support for errors thrown by `buble`
+
 ## 0.18.0
 
 * Update `buble`
