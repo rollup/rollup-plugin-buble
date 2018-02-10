@@ -1,5 +1,9 @@
 # rollup-plugin-buble changelog
 
+## 0.19.1
+
+* Update `buble`
+
 ## 0.19.0
 
 * Update `buble`
