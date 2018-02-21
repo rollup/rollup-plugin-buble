@@ -3,7 +3,7 @@
   "description": "Compile ES2015 with buble",
   "version": "0.19.2",
   "author": "Rich Harris",
-  "repository": "https://gitlab.com/rich-harris/rollup-plugin-buble",
+  "repository": "https://github.com/rollup/rollup-plugin-buble",
   "license": "MIT",
   "main": "dist/rollup-plugin-buble.cjs.js",
   "module": "dist/rollup-plugin-buble.es.js",
