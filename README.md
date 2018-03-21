@@ -22,6 +22,12 @@ rollup({
 }).then(...)
 ```
 
+## Options
+
+- `include`: a [micromatch](https://github.com/micromatch/micromatch) pattern, or array of patterns, specifying files to include
+- `exclude`: a [micromatch](https://github.com/micromatch/micromatch) pattern, or array of patterns, specifying files to exclude
+- `transforms`: an object of transform options, per the [Buble docs](https://buble.surge.sh/guide/)
+
 ## License
 
 MIT
