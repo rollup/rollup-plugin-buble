@@ -19,12 +19,12 @@
     "README.md"
   ],
   "devDependencies": {
-    "eslint": "^4.7.2",
-    "mocha": "^3.5.3",
-    "rollup": "^0.55.4"
+    "eslint": "^5.6.1",
+    "mocha": "^5.2.0",
+    "rollup": "^0.66.4"
   },
   "dependencies": {
     "buble": "^0.19.2",
-    "rollup-pluginutils": "^2.0.1"
+    "rollup-pluginutils": "^2.3.3"
   }
 }
