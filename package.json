@@ -1,7 +1,7 @@
 {
   "name": "rollup-plugin-buble",
   "description": "Compile ES2015 with buble",
-  "version": "0.19.2",
+  "version": "0.19.4",
   "author": "Rich Harris",
   "repository": "https://github.com/rollup/rollup-plugin-buble",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "rollup": "^0.66.4"
   },
   "dependencies": {
-    "buble": "^0.19.2",
+    "buble": "^0.19.4",
     "rollup-pluginutils": "^2.3.3"
   }
 }
