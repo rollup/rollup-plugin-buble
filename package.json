@@ -11,7 +11,8 @@
     "build": "rollup -c",
     "test": "mocha test/test.js",
     "pretest": "npm run build",
-    "prepublish": "npm run lint && rm -rf dist && npm test",
+    "prepublishOnly": "npm run lint && rm -rf dist && npm test",
+    "prepare": "npm run build",
     "lint": "eslint src"
   },
   "files": [
@@ -19,12 +20,12 @@
     "README.md"
   ],
   "devDependencies": {
-    "eslint": "^5.6.1",
+    "eslint": "^5.10.0",
     "mocha": "^5.2.0",
-    "rollup": "^0.66.4"
+    "rollup": "^0.67.4"
   },
   "dependencies": {
-    "buble": "^0.19.4",
+    "buble": "^0.19.6",
     "rollup-pluginutils": "^2.3.3"
   }
 }
