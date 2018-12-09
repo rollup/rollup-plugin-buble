@@ -11,7 +11,8 @@
     "build": "rollup -c",
     "test": "mocha test/test.js",
     "pretest": "npm run build",
-    "prepublish": "npm run lint && rm -rf dist && npm test",
+    "prepublishOnly": "npm run lint && rm -rf dist && npm test",
+    "prepare": "npm run build",
     "lint": "eslint src"
   },
   "files": [
