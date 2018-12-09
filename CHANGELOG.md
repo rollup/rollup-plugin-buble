@@ -1,5 +1,11 @@
 # rollup-plugin-buble changelog
 
+## 0.19.6
+
+* Update dependencies
+* Add test
+* Enable direct Github installation
+
 ## 0.19.4
 
 * Update `buble`
