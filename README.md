@@ -1,10 +1,10 @@
+# Moved
+
+This module has moved and is now available at [@rollup/plugin-buble](https://github.com/rollup/plugins). Please update your dependencies. This repository is no longer maintained.
+
 # rollup-plugin-buble
 
 Convert ES2015 with buble.
-
-## Archived (Migration to Mono-Repo In-Process)
-
-This repository has been archived and is in the process of being migrated to a new monorepo. Please bear with us as we make this transition. More information to follow.
 
 ## Installation
 
